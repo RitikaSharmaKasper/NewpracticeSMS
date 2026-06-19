@@ -697,6 +697,9 @@ function AppRouter() {
           <Route path="teacher-pastclass" element={<TeacherPastClass />} />  
 
 
+{/* Leave Request */}
+  <Route path="/teacher-leave/request" element={<StudentLeaveRequest/>} />
+    <Route path="/teacher-myleave" element={<MyLeaveRequest/>} />
 
 
 {/* events and calendar */}

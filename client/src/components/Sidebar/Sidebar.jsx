@@ -1238,7 +1238,7 @@ function Sidebar({ onLogoutClick }) {
             </div>
 
             {/* Teacher Leave Request - Header only, not clickable */}
-            <div className="relative mt-1">
+              <div className="relative mt-1">
               <div className="flex items-center py-2 text-[14px]">
                 <MdOutlineHolidayVillage className="mr-2 text-[16px] text-slate-800" />
                 <span className="font-medium text-slate-800">
@@ -1247,14 +1247,15 @@ function Sidebar({ onLogoutClick }) {
               </div>
               <div className="relative ml-7 mt-1 pl-4 text-base">
                 <div className="absolute -left-0.5 top-0 bottom-0 w-px bg-gray-300" />
-                <SubMenuItem to="/teacher-leave/request" label="Apply Leave" />
+                <SubMenuItem to="/teacher-leave/request" label="Student Leave Request" />
                 <SubMenuItem
-                  to="/teacher-leave/history"
-                  label="Leave History"
+                  to="/teacher-myleave"
+                  label="My Leave Request"
                 />
-                <SubMenuItem to="/teacher-leave/status" label="Leave Status" />
+             
               </div>
             </div>
+
           </div>
         )}
       </nav>
