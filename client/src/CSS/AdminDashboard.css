@@ -1,0 +1,87 @@
+@media (max-width: 1440px) {
+   
+    .sms-dashboard-admin-container-one{
+        flex-wrap: wrap;
+       
+    }
+    .left-side-container-sms-admindashboard{
+        width: 100% !important;
+    }
+    .card-container-two-admindashboard-sms,.card-container-three-admindashboard-sms{
+        flex-wrap: wrap;
+        width: 100% !important;
+
+    }
+    .right-side-container-sms-admindashboard{
+        width: 100% !important;
+    }
+    .sms-adminadmindashboard-containertwo{
+        flex-wrap: wrap;
+        width: 100% !important;
+       /* height: 600px !important; */
+    }
+    .active-bus-container-sms{
+        flex-wrap: wrap;
+    }
+    .active-bus-container-main{
+        height: 100% !important;
+          padding-bottom: 16px !important;
+       padding-top: 16px !important;
+      
+    }
+    .active-bus-sms{
+        width: 100% !important;
+    }
+    .active-bus-container-sms-map{
+        width: 100% !important;
+    }
+    .sms-adminadmindashboard-containerthree{
+          flex-wrap: wrap;
+          width: 100% !important;
+    }
+
+ 
+}
+@media (max-width:768px){
+     .card-container-admindashbaord{
+       display: grid !important;
+       grid-template-columns: repeat(2, 1fr);
+          
+       
+    }
+    .total-student-graph-sms{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .student-graph-overview-sms{
+      
+       height: auto !important;
+       
+    }
+    .admin-card-sms{
+        max-width: 100% !important;
+    }
+      .performance-overview-headerfilter-sms{
+        flex-direction: column;
+        justify-content:center !important;
+        text-align: center;
+        gap: 15px !important;
+      }
+      .distribution-graphchart-section-sms{
+        flex-wrap: wrap;
+      }
+      .distribution-graphchart-card-sms{
+         width: 100% !important;
+      }
+      .noticeboard-readmorecard-sms{
+         grid-template-columns: repeat(2, 1fr) !important;
+      }
+}
+ @media (max-width:425px){
+    .top-performer-above-below-sms{
+    flex-direction: column !important;
+    }
+    .student-above-sms,.student-below-sms{
+        width: 100% !important;
+    }
+ }

@@ -1,0 +1,38 @@
+[
+  {
+    "roleName": "Administrator",
+    "members": 4,
+    "permissions": "Full",
+    "status": "Active"
+  },
+  {
+    "roleName": "Teacher",
+    "members": 25,
+    "permissions": "Limited",
+    "status": "Active"
+  },
+  {
+    "roleName": "Student",
+    "members": 0,
+    "permissions": "Limited",
+    "status": "Inactive"
+  },
+  {
+    "roleName": "Driver",
+    "members": 8,
+    "permissions": "Limited",
+    "status": "Active"
+  },
+  {
+    "roleName": "Librarian",
+    "members": 2,
+    "permissions": "Limited",
+    "status": "Active"
+  },
+  {
+    "roleName": "Accountant",
+    "members": 15,
+    "permissions": "Limited",
+    "status": "Active"
+  }
+]

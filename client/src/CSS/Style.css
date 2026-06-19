@@ -1,0 +1,260 @@
+.body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+.gray {
+  color: #a1a1a1;
+}
+
+.light-blue {
+  /* color: #007aff; */
+  color: #0B3142;
+}
+
+/* LOGO */
+.logo-middle {
+  display: none;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 70px;
+  overflow: hidden;
+  background: #fff;
+  padding: 0 12px;
+}
+
+/* Hamburger toggle (shown on tablet/mobile only) */
+.hamburger {
+  border: 0;
+  background: transparent;
+  padding: 8px;
+  display: none;
+  /* hidden on desktop, shown via media query */
+  flex-direction: column;
+  justify-content: center;
+  gap: 4px;
+  cursor: pointer;
+}
+
+.hamburger .bar {
+  display: block;
+  width: 22px;
+  height: 2px;
+  background: currentColor;
+  transition: transform 0.2s ease, opacity 0.2s ease;
+}
+
+.hamburger[aria-expanded="true"] .bar:nth-child(1) {
+  transform: translateY(6px) rotate(45deg);
+}
+
+.hamburger[aria-expanded="true"] .bar:nth-child(2) {
+  opacity: 0;
+}
+
+.hamburger[aria-expanded="true"] .bar:nth-child(3) {
+  transform: translateY(-6px) rotate(-45deg);
+}
+
+.search-box {
+  width: 250px;
+  margin: 7.5px 20px;
+  padding: 5px 15px;
+  border: 1px solid #ccc;
+  border-radius: 24px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.user-data {
+  display: flex;
+  align-items: center;
+  padding: 0 20px 0 0;
+  gap: 15px;
+}
+
+.sidebar-left {
+  width: 15%;
+  height: 100vh;
+  position: fixed;
+  top: 70px;
+  left: 0;
+  background-color: #fff;
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+  will-change: transform;
+  overflow-y: auto;
+  z-index: 999;
+}
+
+/* Mobile sidebar - hidden by default */
+@media (max-width: 1024px) {
+  .sidebar-left {
+    width: 100%;
+    transform: translateX(-100%);
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+  }
+
+  .sidebar-left.is-open {
+    transform: translateX(0);
+  }
+}
+
+.pages-linkage {
+  height: 90vh;
+  overflow-y: auto;
+}
+
+.pages-linkage::-webkit-scrollbar {
+  display: none; /* Chrome, Safari, and Opera */
+}
+
+.pages-linkage .bttn:hover {
+  background-color: #424344;
+  color: #fff;
+}
+
+.sidebar-right {
+  flex: 1;
+  width: 85%;
+  height: calc(100vh - 70px);
+  overflow-y: auto;
+  margin-left: auto;
+  padding: 10px;
+  background-color: #f0f5f8;
+}
+
+@media (max-width: 1024px) {
+  .sidebar-right {
+    width: 100%;
+  }
+}
+
+.sidebar-backdrop {
+  position: fixed;
+  top: 70px;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 998;
+  display: none;
+}
+
+@media (max-width: 1024px) {
+  .sidebar-backdrop {
+    display: block;
+  }
+}
+
+.show-sidebar {
+  display: block;
+  position: absolute;
+  background: #fff;
+  z-index: 1000;
+  height: 100vh;
+}
+
+ /* Hide scrollbar utility in sidebar */
+
+@layer utilities {
+  .scrollbar-hide {
+    -ms-overflow-style: none; /* IE & Edge */
+    scrollbar-width: none; /* Firefox */
+  }
+
+  .scrollbar-hide::-webkit-scrollbar {
+    display: none; /* Chrome, Safari */
+  }
+}
+
+
+/* <----------------------------------------------------------- student ---------------------------------------------------------> */
+
+.box-shadow {
+  box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.15);
+}
+
+.top-text {
+  font-size: 16px;
+  font-weight: 400;
+  color: #9C9C9C;
+}
+
+.import-icon {
+  font-size: 16px;
+  color: #696969;
+}
+
+.import-button {
+  padding: 12px 24px;
+  border: 1px solid #9C9C9C;
+  border-radius: 8px;
+  gap: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #696969;
+}
+
+/* <------------------------------------ studentDetails ---------------------------------------> */
+
+@keyframes spread {
+  0% {
+    transform: scale(0.8);
+    opacity: 0.2;
+  }
+  50% {
+    transform: scale(1.2);
+    opacity: 0.3;
+  }
+  100% {
+    transform: scale(0.8);
+    opacity: 0.5;
+  }
+}
+
+.animate-spread {
+  animation: spread 0.1s ease-in-out infinite;
+  transform-origin: center;
+}
+
+
+/* react-calendar overrides */
+.react-calendar {
+  width: 100% !important;
+  border: none;
+  font-family: inherit;
+}
+
+.react-calendar__navigation {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 12px;
+}
+
+.react-calendar__month-view__weekdays {
+  text-align: center;
+  font-size: 12px;
+  color: #9ca3af;
+}
+
+.react-calendar__tile {
+  border-radius: 6px;
+  padding: 10px 0;
+  font-size: 14px;
+  text-align: center;
+}
+
+/* disable default hover */
+.react-calendar__tile:enabled:hover {
+  background: none;
+}

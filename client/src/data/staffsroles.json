@@ -1,0 +1,182 @@
+[
+  {
+    "id": 1,
+    "name": "Virat Kohli",
+    "empId": "EMP123457",
+    "role": "Administrator",
+    "lastLogin": "2026-05-21T10:07:00Z",
+    "permissions": "All",
+    "status": "Active"
+  },
+  {
+    "id": 2,
+    "name": "Rohit Sharma",
+    "empId": "EMP123458",
+    "role": "Administrator",
+    "lastLogin": "2026-05-20T16:45:00Z",
+    "permissions": "All",
+    "status": "Active"
+  },
+  {
+    "id": 3,
+    "name": "Priya Singh",
+    "empId": "EMP123459",
+    "role": "Teacher",
+    "lastLogin": "2026-05-21T08:15:00Z",
+    "permissions": "Limited",
+    "status": "Active"
+  },
+  {
+    "id": 4,
+    "name": "Amit Verma",
+    "empId": "EMP123460",
+    "role": "Teacher",
+    "lastLogin": "2026-05-19T11:20:00Z",
+    "permissions": "Limited",
+    "status": "Active"
+  },
+  {
+    "id": 5,
+    "name": "Neha Gupta",
+    "empId": "EMP123461",
+    "role": "Accountant",
+    "lastLogin": "2026-05-21T17:02:00Z",
+    "permissions": "Limited",
+    "status": "Active"
+  },
+  {
+    "id": 6,
+    "name": "Rajesh Kumar",
+    "empId": "EMP123462",
+    "role": "Accountant",
+    "lastLogin": "2026-05-18T13:40:00Z",
+    "permissions": "Limited",
+    "status": "Active"
+  },
+  {
+    "id": 7,
+    "name": "Sneha Patel",
+    "empId": "EMP123463",
+    "role": "Teacher",
+    "lastLogin": "2026-05-21T11:05:00Z",
+    "permissions": "Limited",
+    "status": "Active"
+  },
+  {
+    "id": 8,
+    "name": "Karan Mehta",
+    "empId": "EMP123464",
+    "role": "Staff",
+    "lastLogin": "2026-05-20T10:00:00Z",
+    "permissions": "Limited",
+    "status": "Inactive"
+  },
+  {
+    "id": 9,
+    "name": "Anita Desai",
+    "empId": "EMP123465",
+    "role": "Editor",
+    "lastLogin": "2026-05-15T12:00:00Z",
+    "permissions": "Limited",
+    "status": "Active"
+  },
+  {
+    "id": 10,
+    "name": "Vikram Joshi",
+    "empId": "EMP123466",
+    "role": "Editor",
+    "lastLogin": "2026-05-21T07:45:00Z",
+    "permissions": "Limited",
+    "status": "Active"
+  },
+  {
+    "id": 11,
+    "name": "Pooja Nair",
+    "empId": "EMP123467",
+    "role": "Viewer",
+    "lastLogin": "2026-05-12T14:30:00Z",
+    "permissions": "Limited",
+    "status": "Active"
+  },
+  {
+    "id": 12,
+    "name": "Arjun Reddy",
+    "empId": "EMP123468",
+    "role": "Viewer",
+    "lastLogin": "2026-04-30T10:15:00Z",
+    "permissions": "Limited",
+    "status": "Inactive"
+  },
+  {
+    "id": 13,
+    "name": "Meera Iyer",
+    "empId": "EMP123469",
+    "role": "Administrator",
+    "lastLogin": "2026-05-21T06:12:00Z",
+    "permissions": "All",
+    "status": "Active"
+  },
+  {
+    "id": 14,
+    "name": "Suresh Pillai",
+    "empId": "EMP123470",
+    "role": "Manager",
+    "lastLogin": "2026-05-19T15:33:00Z",
+    "permissions": "All",
+    "status": "Active"
+  },
+  {
+    "id": 15,
+    "name": "Divya Rao",
+    "empId": "EMP123471",
+    "role": "Staff",
+    "lastLogin": "2026-05-21T09:50:00Z",
+    "permissions": "Limited",
+    "status": "Active"
+  },
+  {
+    "id": 16,
+    "name": "Manish Agarwal",
+    "empId": "EMP123472",
+    "role": "Teacher",
+    "lastLogin": "2026-05-14T18:22:00Z",
+    "permissions": "Limited",
+    "status": "Active"
+  },
+  {
+    "id": 17,
+    "name": "Kavita Shah",
+    "empId": "EMP123473",
+    "role": "Accountant",
+    "lastLogin": "2026-05-21T05:30:00Z",
+    "permissions": "Limited",
+    "status": "Active"
+  },
+  {
+    "id": 18,
+    "name": "Harsh Malhotra",
+    "empId": "EMP123474",
+    "role": "Staff",
+    "lastLogin": "2026-05-17T09:18:00Z",
+    "permissions": "Limited",
+    "status": "Active"
+  },
+  {
+    "id": 19,
+    "name": "Ritu Sharma",
+    "empId": "EMP123475",
+    "role": "Teacher",
+    "lastLogin": "2026-05-21T04:55:00Z",
+    "permissions": "Limited",
+    "status": "Active"
+  },
+  {
+    "id": 20,
+    "name": "Gaurav Bansal",
+    "empId": "EMP123476",
+    "role": "Viewer",
+    "lastLogin": "2026-05-10T16:40:00Z",
+    "permissions": "Limited",
+    "status": "Inactive"
+  }
+]

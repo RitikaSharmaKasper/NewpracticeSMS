@@ -1,0 +1,18 @@
+[
+  {
+    "id": "department-1",
+    "type": "Academic"
+  },
+  {
+    "id": "department-2",
+    "type": "Transport"
+  },
+  {
+    "id": "department-3",
+    "type": "Maintenance"
+  },
+  {
+    "id": "department-4",
+    "type": "Other"
+  }
+]

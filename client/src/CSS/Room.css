@@ -1,0 +1,36 @@
+@media (max-width: 1024px){
+    .room-type-table{
+        display: flex;
+        padding: 5px;
+    }
+}
+
+@media (max-width:768px){
+    .searchfilter-rooms{
+        gap: 20px !important;
+        flex-wrap: wrap;
+        justify-content: center !important;
+    }
+    .searchfilter-class{
+          gap: 20px !important;
+        flex-wrap: wrap;
+        justify-content: center !important;
+    }
+  
+      .paginationAll-sms{
+        flex-direction: column;
+        gap: 10px;
+    }
+}
+@media (max-width:425px){
+    .sms-filter-more-btn{
+        flex-wrap: wrap;
+    }
+    .addcreate-popup-sms{
+     grid-template-columns: repeat(1, 1fr)  !important;
+       
+    }
+    .facilities-addpopup{
+         grid-template-columns: repeat(2, 1fr)  !important; 
+    }
+}

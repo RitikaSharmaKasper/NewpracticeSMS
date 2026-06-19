@@ -1,0 +1,218 @@
+{
+  "defaultDesign": "grid",
+  "actionColumns": ["Add", "View", "Edit", "Delete"],
+
+  "roleOverrides": {
+    "Teacher": {
+      "Dashboard": { "type": "simple-list" },
+      "Result": { "type": "action-table" },
+     
+      "Attendance":{ "type": "simple-list" },
+      "Study Material": { "type": "" }
+    },
+    "Student": {
+      "Dashboard": { "type": "simple-list" },
+      "Result": { "type": "simple-list" },
+    
+      "Attendance":{ "type": "simple-list" },
+         "TimeTable":{"type":""},
+           "Homework":{"type":""},
+            "Exam":{"type":""},
+            "Transport":{"type":""},
+             "Fee":{"type":""}
+    }
+  },
+
+
+
+  "menuDesigns": {
+    "Dashboard": {
+      "type": "dashboard-groups",
+      "groups": [
+        {
+          "title": "KPI",
+          "items": [
+            "Total Students",
+            "Total Staff",
+            "Total Teachers",
+            "Monthly Revenue",
+            "Pending Fees",
+            "Attendance Rate",
+            "Present Staffs",
+            "Upcoming Exams",
+            "Class",
+            "Room",
+            "New Admission",
+            "Present Student"
+          ]
+        },
+        {
+          "title": "Login"
+        },
+        {
+          "title": "Leave Board"
+        },
+        {
+          "title": "Attendance Overview"
+        },
+        {
+          "title": "Staff Member Attendance"
+        },
+        {
+          "title": "Quick Actions",
+          "items": [
+            "Add Student",
+            "Add Staff",
+            "Collect Fee",
+            "Student Attendance",
+            "Upload Study Material",
+            "Create Homework",
+            "Create Notice",
+            "View Class Performance"
+          ]
+        },
+        {
+          "title": "Earnings"
+        },{"title":"Top Performers"},{
+          "title":"Bus Tracking"
+        },
+        {
+          "title":"Recent Fee Transactions"
+        },
+        {"title":"Class Wise Performance Overview"},
+        {"title":"Upcoming Events"},{
+          "title":"Today's Timetable"
+        }
+      ]
+    },
+
+
+       "Students": {
+      "type": "action-table"
+    },
+    
+       "Staffs": {
+      "type": "action-table"
+    },
+    "Academic": {
+      "type": "action-table"
+    },
+    "Study Material": {
+      "type": "action-table"
+    },
+    "TimeTable": {
+      "type": "action-table"
+    },
+    "Exam": {
+      "type": "action-table"
+    },
+    "Fee": {
+      "type": "action-table"
+    },
+     "Result": {
+      "type": "action-table"
+    },
+    "Homework": {
+      "type": "simple-list"
+    },
+    "Online Class": {
+      "type": "action-table"
+    },
+      "Events and Calendar": {
+      "type": "action-table"
+    },
+   
+     "Front Desk": {
+      "type": "action-table"
+    },
+     "Online Test": {
+      "type": "action-table"
+    },
+     "Payroll": {
+      "type": "action-table"
+    },
+     "Account": {
+      "type": "action-table"
+    },
+     "Transport": {
+     "type": "action-table"
+  },
+  "Study Material": {
+      "type": "action-table"
+    },
+     "Report": {
+      "type": ""
+    },
+      "Notice": {
+      "type": "action-table"
+    },
+       "Certificate": {
+      "type": "action-table"
+     },
+     "Messages": {
+      "type": ""
+     },
+     "Settings": {
+      "type": ""
+     },
+       "Profile":{
+     "type": ""
+       },
+         "Student":{
+    "type": "simple-list"
+      },
+         "Class":{
+ "type": "simple-list"
+         },
+         "Subject":{
+  "type": ""
+         },
+         "Attendance":{
+"type": "action-table"
+         },
+         "Leave Request":{
+"type": "simple-list"
+
+         },
+         "Messages":{
+"type": ""
+         },
+       
+         "Salary":{
+"type": ""
+         },
+         "Result":{
+
+"type": "simple-list"
+
+         },
+         
+          "Library":{
+          "type":"action-table"
+          },
+   "Examination":{
+          "type":"action-table"
+          },
+    
+    
+     "Management Unit":{
+          "type":"action-table"
+          },
+
+          "Leave":{
+          "type":"action-table"
+          },
+
+           "Shift":{
+          "type":"action-table"
+          } ,
+
+          "Inventory":{
+          "type":"action-table"
+          } 
+
+    
+    
+    
+    }
+}

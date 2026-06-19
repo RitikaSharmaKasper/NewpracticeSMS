@@ -1,0 +1,22 @@
+[
+  {
+    "id": "designation-1",
+    "designation": "Math Teacher",
+    "type": "Teaching"
+  },
+  {
+    "id": "designation-2",
+    "designation": "English Teacher",
+    "type": "Teaching"
+  },
+  {
+    "id": "designation-3",
+    "designation": "Accountant",
+    "type": "Non-Teaching"
+  },
+  {
+    "id": "designation-4",
+    "designation": "Principal",
+    "type": "Non-Teaching"
+  }
+]

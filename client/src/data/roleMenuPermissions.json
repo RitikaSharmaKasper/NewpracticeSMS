@@ -1,0 +1,562 @@
+{
+  "menus": {
+ "Dashboard": [
+  "KPI",
+  "Total Students",
+  "Total Staff",
+  "Total Teachers",
+  "Monthly Revenue",
+  "Pending Fees",
+  "Attendance Rate",
+  "Present Staffs",
+  "Upcoming Exams",
+  "Class",
+  "Room",
+  "New Admission",
+  "Present Student",
+  "Login",
+  "Leave Board",
+  "Attendance Overview",
+  "Staff Member Attendance",
+  "Add Student",
+  "Add Staff",
+  "Collect Fee",
+  "Student Attendance",
+  "Upload Study Material",
+  "Create Homework",
+  "Create Notice",
+  "View Class Performance",
+  "Earnings"
+],
+      "Students": [
+      "All Students",
+      "Daily Attendance",
+       "Period-WiseAttendance",
+       "Performance",
+      "Leave Request",
+      "ID Card",
+      "Manage Login",
+      "Promote Student",
+      "Student Profile"
+      ,"Admission Letter"
+
+    ],
+   "Report":[
+
+   ],
+    "Staff": [      "All Staffs",
+      "View Attendance",
+       "Attendance Register",
+       "Update Attendance",
+       "Shift Management",
+      "Leave Request",
+      "ID Card",
+      "Manage Login",
+   
+      "Staff Profile"
+      ,"Job Letter"
+
+
+    ], "Academic": [
+      "Rooms",
+      "Class & Section",
+      "Subjects",
+      
+      "Performance"
+     
+    ], "TimeTable": [
+     "Class Timetable",
+     "Teacher Timetable",
+"Substitution","Settings"
+ 
+    ],  "Exam":[
+      "Create Exam",
+      "Exam List",
+      "Schedule Exam",
+      "Admit Card",
+      "Invigilators",
+      "Instruction"
+
+    ], "Fee":[
+"Fee Deposit",
+"Fee Receipt",
+"Pending Fee",
+"Fee Particulars",
+"Fee Structure",
+"Concessions"
+    ],
+
+   
+    "Homework": [
+      "Add Homework",
+      "Homework List",
+      "Homework Report"
+    ],
+    "Online Class": [
+      "Dashboard",
+      "Schedule Classes",
+      "Past Class"
+    ], "Events and Calendar":
+      ["Calendar",
+      "Events",
+      "Upcoming Events"
+
+
+      ],
+        "Front Desk": [
+              "Visitor Register",
+              "Admission Enquiries",
+              "Gate Pass"
+           
+            ]
+         ,
+         "Online Test":[
+          "Question Bank",
+          "Test Paper" ,
+          "Test Schedule ",
+          "Result"
+         ],
+         "Payroll":[
+          "Genrate Payroll",
+          "Salary Structure",
+          "Pay Slips",
+          "Deduction & Advances"
+         ],
+         "Account":[
+          "Expenses",
+          "Revenue",
+          "Account Statement"
+         ],
+         "Transport":[
+          "Vehicles",
+          "Routes",
+          "Bus Staffs",
+          "Driver & Staffs",
+          "Transport Allocation",
+          "Transport Attendance",
+          "Live Bus Status"
+
+         ],
+         "Study Material":[
+          ""
+         ],
+        
+          "Notice":[
+            
+          ],
+            "Certificate":[
+              ""
+            ],
+            
+         "Settings":[
+
+         ],
+         "Profile":[],
+         "Student":[
+"My Student",
+"Performance"
+         ],
+         "Class":["My Class" , "Class Performance"],
+         "Subject":[],
+         "Attendance":["My Attendance", "Todays Attendance" ,"View Attendance", "Attendance Register" ,
+        "Update Attendance" , "NCNS & Sandwhich"],
+        
+         "Messages":[],
+       
+         "Salary":[],
+         "Result":["Mark Entry","View Result" ,"Report Card"],
+           "Library":[
+            "BookCatalog"
+           ],"Examination":[
+            "Create Exam",
+            "Manage Exam",
+            "Sechedule",
+            "Date Sheet",
+           "Seat Plan",
+           "Admit Card"
+
+           ]
+        
+           ,   "Management Unit":[
+            "User Role",
+         "Designation",
+         "Department"
+           ],
+           "Shift":[
+            "Shift Management",
+            "Schedule Shift",
+            "Employee Shift History",
+            "Schedule Shift List"
+           ],
+           "Leave":[
+            "Leave Request",
+            "Approved Leaves",
+            "Rejected Leaves",
+            "Leave Register",
+            "Update Leave",
+            "Leave Assign"
+           ],
+           "Inventory":[
+            "Options 1",
+             "Options 1 ",
+              "Options 1"
+           ],
+            "Leave Request":[
+              "Student Leave Request ",
+              "My Leave Request"
+            ]
+         
+
+
+    
+  
+  
+  },
+  "roleMenus": {
+    "Administrator": [
+      "Dashboard",
+       "Academic",
+         "Study Material",
+     
+       "Front Desk",
+          "Certificate",
+           "Students",
+            "HomeWork",
+             "Online Class",
+              "Fee",
+              "Library",
+              "Transport",
+              "Examination",
+              
+     "Result",
+    
+    
+    
+     
+      "Online Test",
+
+      "Staff",
+     
+ 
+   
+     "Attendance",
+   "Shift",
+   "Leave",
+"Salary",
+      "Payroll",
+      "Account",
+      "Inventory",
+     "Events and Calendar",
+   
+      
+      "Notice",
+   
+      "Messages",
+      "Report",
+      "Management Unit",
+      "Settings"
+
+    ],
+    "Teacher": [
+      "Dashboard",
+      "Student",
+      "Class",
+      "Subject",
+      "TimeTable",
+      "Attendance",
+      "HomeWork",
+      "Study Material",
+      "Online Class",
+      "Online Test",
+      "Result",
+      "Report",
+
+    
+      "Events and Calendar",
+      "Leave Request",
+      "Messages",
+      "Notice",
+      "Salary",
+"Profile",
+"Settings"
+     ],
+    "Student": [  "Dashboard",
+     "Attendance",
+  "TimeTable",
+         "Homework",
+         "Study Material",
+         
+      "Online Class",
+      
+      "Online Test",
+      "Student",
+      "Exam",
+      "Result",
+"Library",
+"Event and Calendar",
+"Leave Request",
+"Transport",
+"Fee",
+ "Notice",
+"Profile",
+"Settings"
+     ],
+    "Accountant": [   "Dashboard",
+       "Academic",
+         "Study Material",
+     
+       "Front Desk",
+          "Certificate",
+           "Students",
+            "HomeWork",
+             "Online Class",
+              "Fee",
+              "Library",
+              "Transport",
+              "Examination",
+              
+     "Result",
+    
+    
+    
+     
+      "Online Test",
+
+      "Staff",
+     
+ 
+   
+     "Attendance",
+   "Shift",
+   "Leave",
+"Salary",
+      "Payroll",
+      "Account",
+      "Inventory",
+     "Events and Calendar",
+   
+      
+      "Notice",
+   
+      "Messages",
+      "Report",
+      "Management Unit",
+      "Settings"
+
+],
+    "Driver": [   "Dashboard",
+       "Academic",
+         "Study Material",
+     
+       "Front Desk",
+          "Certificate",
+           "Students",
+            "HomeWork",
+             "Online Class",
+              "Fee",
+              "Library",
+              "Transport",
+              "Examination",
+              
+     "Result",
+    
+    
+    
+     
+      "Online Test",
+
+      "Staff",
+     
+ 
+   
+     "Attendance",
+   "Shift",
+   "Leave",
+"Salary",
+      "Payroll",
+      "Account",
+      "Inventory",
+     "Events and Calendar",
+   
+      
+      "Notice",
+   
+      "Messages",
+      "Report",
+      "Management Unit",
+      "Settings"
+
+],
+    "Librarian": [   "Dashboard",
+       "Academic",
+         "Study Material",
+     
+       "Front Desk",
+          "Certificate",
+           "Students",
+            "HomeWork",
+             "Online Class",
+              "Fee",
+              "Library",
+              "Transport",
+              "Examination",
+              
+     "Result",
+    
+    
+    
+     
+      "Online Test",
+
+      "Staff",
+     
+ 
+   
+     "Attendance",
+   "Shift",
+   "Leave",
+"Salary",
+      "Payroll",
+      "Account",
+      "Inventory",
+     "Events and Calendar",
+   
+      
+      "Notice",
+   
+      "Messages",
+      "Report",
+      "Management Unit",
+      "Settings"
+
+]
+  },
+  "defaultPermissions": {
+    "Administrator": {
+      "Dashboard": ["KPI", "Total Students", "Total Staff", "Total Teachers", "Monthly Revenue", "Pending Fees", "Attendance Rate", "Present Staffs", "Upcoming Exams", "Class", "Room", "New Admission", "Present Student"],
+      "Academic": ["Rooms", "Class & Section", "Subjects", "Timetable", "Performance", "Exam", "Result"],
+      "Study Material": ["Add Material", "Student Material", "Material List", "Download Reports"],
+      "Front Desk": ["Visitor Register", "Admission Enquiries", "Gate Pass", "Follow Up"],
+      "Certificate": ["Bonafide Certificate", "DOB Certificate", "Character Certificate", "Transfer Certificate", "Participation Certificate", "Appreciation Certificate", "Achievement Certificate"],
+      "Students": ["All Students", "Attendance", "Leave Request", "Performance", "ID Card", "Manage Login", "Promote"],
+      "Homework": ["Add Homework", "Homework List", "Homework Report"],
+      "Online Class": ["Dashboard", "Schedule Classes", "Past Class"]
+    },
+    "Teacher": {
+       "Dashboard":[],
+      "Student" :[],
+      "Class" :[],
+      "Subject " :[],
+      "Timetable" :[],
+      "Attendance" :[],
+      "Homework" :[],
+      "Online Class ":[],
+      "Online Test" :[],
+      "Result" :[],"Report" :[],
+      "Event and Calendar" :[],
+      "Leave Request" :[],
+      "Message" :[],
+      "Notice" :[],
+      "Salary" :[],
+"Profile" :[],
+"Settings" :[]
+    },
+    "Student": {
+      "Dashboard": ["KPI", "Attendance Rate"],
+      "Homework": ["Homework List"],
+      "Online Class": ["Dashboard", "Past Class"]
+    },
+    "Accountant": {
+      "Dashboard": ["KPI", "Monthly Revenue", "Pending Fees"],
+      "Front Desk": ["Visitor Register", "Admission Enquiries"],
+      "Certificate": ["Bonafide Certificate", "DOB Certificate"]
+    },
+    "Driver": {
+      "Dashboard": ["KPI"],
+      "Front Desk": ["Gate Pass"]
+    },
+    "Librarian": {
+      "Dashboard": ["KPI", "Total Students"],
+      "Study Material": ["Material List", "Download Reports"],
+      "Students": ["All Students"]
+    }
+  },
+  "roleDetails": {
+    "Administrator": {
+      "roleName": "Administrator",
+      "status": "Active",
+      "remarks": "",
+      "members": 4
+    },
+    "Teacher": {
+      "roleName": "Teacher",
+      "status": "Active",
+      "remarks": "",
+      "members": 25
+    },
+    "Student": {
+      "roleName": "Student",
+      "status": "Inactive",
+      "remarks": "",
+      "members": 0
+    },
+    "Accountant": {
+      "roleName": "Accountant",
+      "status": "Active",
+      "remarks": "",
+      "members": 15
+    },
+    "Driver": {
+      "roleName": "Driver",
+      "status": "Active",
+      "remarks": "",
+      "members": 8
+    },
+    "Librarian": {
+      "roleName": "Librarian",
+      "status": "Active",
+      "remarks": "",
+      "members": 2
+    }
+  },
+
+
+
+  "roleMenuItems": {
+  "Teacher": {
+    "Dashboard": [
+     
+    ],
+    "Attendance":[
+     "Student Attendance",
+     "My Attendance"
+    ],
+    "Result": [
+      "Mark Entry",
+      "Report Card",
+      "View Result"
+    ]
+
+  },
+  "Student": {
+    "Dashboard": [
+   
+    ],
+     "Attendance":[
+     "Daily Attendance",
+     "Period Wise Attendance"
+    ],
+    "Study Material":[],
+    "Result": [
+      "Exam Result",
+      "Report Card"
+    ],
+       "TimeTable":[],
+         "Homework":[],
+         "Exam":[],
+          "Transport":[],
+          "Fee":[]
+   
+  }
+}
+}

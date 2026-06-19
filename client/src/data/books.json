@@ -1,0 +1,762 @@
+[
+  {
+    "id": "book-1",
+    "title": "The Great Gatsby",
+    "author": "F. Scott Fitzgerald",
+    "isbn": "978-0-7432-7356-5",
+    "category": "Fiction",
+    "publisher": "Harper Perennial",
+    "language": "English",
+    "edition": "3rd",
+    "publicationYear": "1925",
+    "totalPages": "180",
+    "totalCopies": 10,
+    "issued": 7,
+    "available": 3,
+    "price": "350",
+    "shelfLocation": "A-12",
+    "status": "Available",
+    "description": "A classic novel set in the Jazz Age that explores themes of wealth, class, and the American Dream through the mysterious Jay Gatsby.",
+    "coverImage": "https://images.unsplash.com/photo-1544947950-fa07a98d237f?w=100&auto=format&fit=crop&q=80",
+    "borrowers": [
+      {
+        "memberId": "LIB-2025-0042",
+        "memberName": "Rahul Sharma",
+        "issueDate": "2026-05-15",
+        "dueDate": "2026-05-30",
+        "loanStatus": "Overdue",
+        "daysOverdue": 7
+      },
+      {
+        "memberId": "LIB-2025-0043",
+        "memberName": "Anjali Desai",
+        "issueDate": "2026-05-25",
+        "dueDate": "2026-06-09",
+        "loanStatus": "Active",
+        "daysOverdue": 0
+      }
+    ]
+  },
+  {
+    "id": "book-2",
+    "title": "A Brief History of Time",
+    "author": "Stephen Hawking",
+    "isbn": "978-0-553-17698-8",
+    "category": "Science",
+    "publisher": "Bantam Books",
+    "language": "English",
+    "edition": "10th Anniversary",
+    "publicationYear": "1988",
+    "totalPages": "256",
+    "totalCopies": 7,
+    "issued": 7,
+    "available": 0,
+    "price": "450",
+    "shelfLocation": "B-05",
+    "status": "Unavailable",
+    "description": "Stephen Hawking's groundbreaking work that explains complex cosmological concepts in layman's terms, from the Big Bang to black holes.",
+    "coverImage": "https://images.unsplash.com/photo-1532012197267-da84d127e765?w=100&auto=format&fit=crop&q=80",
+    "borrowers": [
+      {
+        "memberId": "LIB-2025-0044",
+        "memberName": "Amit Patel",
+        "issueDate": "2026-05-10",
+        "dueDate": "2026-05-25",
+        "loanStatus": "Overdue",
+        "daysOverdue": 12
+      },
+      {
+        "memberId": "LIB-2025-0045",
+        "memberName": "Priya Nair",
+        "issueDate": "2026-05-12",
+        "dueDate": "2026-05-27",
+        "loanStatus": "Overdue",
+        "daysOverdue": 10
+      }
+    ]
+  },
+  {
+    "id": "book-3",
+    "title": "Harry Potter and the Sorcerer's Stone",
+    "author": "J.K. Rowling",
+    "isbn": "978-0-545-01022-1",
+    "category": "Fiction",
+    "publisher": "Scholastic",
+    "language": "English",
+    "edition": "1st",
+    "publicationYear": "1997",
+    "totalPages": "309",
+    "totalCopies": 12,
+    "issued": 11,
+    "available": 1,
+    "price": "500",
+    "shelfLocation": "C-08",
+    "status": "Low Stock",
+    "description": "The first book in the iconic Harry Potter series, following a young wizard's journey at Hogwarts School of Witchcraft and Wizardry.",
+    "coverImage": "https://images.unsplash.com/photo-1589998059171-988d887df646?w=100&auto=format&fit=crop&q=80",
+    "borrowers": [
+      {
+        "memberId": "LIB-2025-0046",
+        "memberName": "Vikram Malhotra",
+        "issueDate": "2026-05-28",
+        "dueDate": "2026-06-12",
+        "loanStatus": "Active",
+        "daysOverdue": 0
+      },
+      {
+        "memberId": "LIB-2025-0047",
+        "memberName": "Sanya Gupta",
+        "issueDate": "2026-05-18",
+        "dueDate": "2026-06-02",
+        "loanStatus": "Overdue",
+        "daysOverdue": 4
+      }
+    ]
+  },
+  {
+    "id": "book-4",
+    "title": "Sapiens: A Brief History of Humankind",
+    "author": "Yuval Noah Harari",
+    "isbn": "978-0-06-231611-0",
+    "category": "Non-Fiction",
+    "publisher": "Harper Collins",
+    "language": "English",
+    "edition": "2nd",
+    "publicationYear": "2011",
+    "totalPages": "443",
+    "totalCopies": 9,
+    "issued": 3,
+    "available": 6,
+    "price": "600",
+    "shelfLocation": "D-15",
+    "status": "Available",
+    "description": "A sweeping narrative of human history, from the emergence of Homo sapiens in Africa to the present day scientific and political revolutions.",
+    "coverImage": "https://images.unsplash.com/photo-1524578271613-d550eacf6090?w=100&auto=format&fit=crop&q=80",
+    "borrowers": [
+      {
+        "memberId": "LIB-2025-0048",
+        "memberName": "Rohan Das",
+        "issueDate": "2026-05-26",
+        "dueDate": "2026-06-10",
+        "loanStatus": "Active",
+        "daysOverdue": 0
+      },
+      {
+        "memberId": "LIB-2025-0049",
+        "memberName": "Meera Joshi",
+        "issueDate": "2026-05-30",
+        "dueDate": "2026-06-14",
+        "loanStatus": "Active",
+        "daysOverdue": 0
+      }
+    ]
+  },
+  {
+    "id": "book-5",
+    "title": "The Very Hungry Caterpillar",
+    "author": "Eric Carle",
+    "isbn": "978-0-399-22690-9",
+    "category": "Children",
+    "publisher": "World of Eric Carle",
+    "language": "English",
+    "edition": "Board Book",
+    "publicationYear": "1969",
+    "totalPages": "26",
+    "totalCopies": 6,
+    "issued": 6,
+    "available": 0,
+    "price": "250",
+    "shelfLocation": "E-02",
+    "status": "Unavailable",
+    "description": "A beloved children's picture book telling the story of a caterpillar who eats through a variety of foods before transforming into a butterfly.",
+    "coverImage": "https://images.unsplash.com/photo-1543002588-bfa74002ed7e?w=100&auto=format&fit=crop&q=80",
+    "borrowers": [
+      {
+        "memberId": "LIB-2025-0050",
+        "memberName": "Kavita Reddy",
+        "issueDate": "2026-05-14",
+        "dueDate": "2026-05-29",
+        "loanStatus": "Overdue",
+        "daysOverdue": 8
+      },
+      {
+        "memberId": "LIB-2025-0051",
+        "memberName": "Arjun Mishra",
+        "issueDate": "2026-05-20",
+        "dueDate": "2026-06-04",
+        "loanStatus": "Overdue",
+        "daysOverdue": 2
+      }
+    ]
+  },
+  {
+    "id": "book-6",
+    "title": "Mathematics Class 8 (NCERT)",
+    "author": "NCERT",
+    "isbn": "978-81-7702-194-6",
+    "category": "Textbooks",
+    "publisher": "NCERT Publications",
+    "language": "English",
+    "edition": "2024",
+    "publicationYear": "2024",
+    "totalPages": "312",
+    "totalCopies": 15,
+    "issued": 10,
+    "available": 5,
+    "price": "120",
+    "shelfLocation": "F-01",
+    "status": "Available",
+    "description": "The official NCERT Mathematics textbook for Class 8, covering algebra, geometry, data handling, and more for the Indian school curriculum.",
+    "coverImage": "https://images.unsplash.com/photo-1509228468518-180dd4864904?w=100&auto=format&fit=crop&q=80",
+    "borrowers": [
+      {
+        "memberId": "LIB-2025-0052",
+        "memberName": "Nikhil Saxena",
+        "issueDate": "2026-05-15",
+        "dueDate": "2026-05-30",
+        "loanStatus": "Overdue",
+        "daysOverdue": 7
+      },
+      {
+        "memberId": "LIB-2025-0053",
+        "memberName": "Divya Teja",
+        "issueDate": "2026-05-29",
+        "dueDate": "2026-06-13",
+        "loanStatus": "Active",
+        "daysOverdue": 0
+      }
+    ]
+  },
+  {
+    "id": "book-7",
+    "title": "Olympiad Success Maths",
+    "author": "Dr. R.S. Aggarwal",
+    "isbn": "978-93-5260-018-7",
+    "category": "Textbooks",
+    "publisher": "S. Chand Publishing",
+    "language": "English",
+    "edition": "5th",
+    "publicationYear": "2020",
+    "totalPages": "480",
+    "totalCopies": 8,
+    "issued": 3,
+    "available": 5,
+    "price": "380",
+    "shelfLocation": "F-03",
+    "status": "Available",
+    "description": "A comprehensive collection of mathematical problems and solutions for Olympiad preparation, covering number theory and combinatorics.",
+    "coverImage": "https://images.unsplash.com/photo-1456513080510-7bf3a84b82f8?w=100&auto=format&fit=crop&q=80",
+    "borrowers": [
+      {
+        "memberId": "LIB-2025-0054",
+        "memberName": "Aditya Verma",
+        "issueDate": "2026-05-22",
+        "dueDate": "2026-06-06",
+        "loanStatus": "Active",
+        "daysOverdue": 0
+      },
+      {
+        "memberId": "LIB-2025-0055",
+        "memberName": "Sneha Rao",
+        "issueDate": "2026-05-27",
+        "dueDate": "2026-06-11",
+        "loanStatus": "Active",
+        "daysOverdue": 0
+      }
+    ]
+  },
+  {
+    "id": "book-8",
+    "title": "To Kill a Mockingbird",
+    "author": "Harper Lee",
+    "isbn": "978-0-06-112008-4",
+    "category": "Fiction",
+    "publisher": "Harper Perennial",
+    "language": "English",
+    "edition": "50th Anniversary",
+    "publicationYear": "1960",
+    "totalPages": "336",
+    "totalCopies": 14,
+    "issued": 5,
+    "available": 9,
+    "price": "420",
+    "shelfLocation": "A-07",
+    "status": "Available",
+    "description": "A Pulitzer Prize-winning novel about racial injustice in the American South, told through the eyes of young Scout Finch.",
+    "coverImage": "https://images.unsplash.com/photo-1512820790803-83ca734da794?w=100&auto=format&fit=crop&q=80",
+    "borrowers": [
+      {
+        "memberId": "LIB-2025-0056",
+        "memberName": "Rishabh Sen",
+        "issueDate": "2026-05-19",
+        "dueDate": "2026-06-03",
+        "loanStatus": "Overdue",
+        "daysOverdue": 3
+      },
+      {
+        "memberId": "LIB-2025-0057",
+        "memberName": "Tanvi Bhatia",
+        "issueDate": "2026-06-01",
+        "dueDate": "2026-06-16",
+        "loanStatus": "Active",
+        "daysOverdue": 0
+      }
+    ]
+  },
+  {
+    "id": "book-9",
+    "title": "The Art of War",
+    "author": "Sun Tzu",
+    "isbn": "978-1-59030-227-8",
+    "category": "Non-Fiction",
+    "publisher": "Shambhala Publications",
+    "language": "English",
+    "edition": "Illustrated",
+    "publicationYear": "2005",
+    "totalPages": "273",
+    "totalCopies": 5,
+    "issued": 5,
+    "available": 0,
+    "price": "300",
+    "shelfLocation": "G-11",
+    "status": "Unavailable",
+    "description": "An ancient Chinese military treatise attributed to Sun Tzu, offering strategic wisdom applicable to business and everyday life.",
+    "coverImage": "https://images.unsplash.com/photo-1476275466078-4007374efbbe?w=100&auto=format&fit=crop&q=80",
+    "borrowers": [
+      {
+        "memberId": "LIB-2025-0058",
+        "memberName": "Manish Tiwari",
+        "issueDate": "2026-05-08",
+        "dueDate": "2026-05-23",
+        "loanStatus": "Overdue",
+        "daysOverdue": 14
+      },
+      {
+        "memberId": "LIB-2025-0059",
+        "memberName": "Deepika Choudhury",
+        "issueDate": "2026-05-11",
+        "dueDate": "2026-05-26",
+        "loanStatus": "Overdue",
+        "daysOverdue": 11
+      }
+    ]
+  },
+  {
+    "id": "book-10",
+    "title": "Introduction to Algorithms",
+    "author": "Thomas H. Cormen",
+    "isbn": "978-0-262-03384-8",
+    "category": "Technology",
+    "publisher": "MIT Press",
+    "language": "English",
+    "edition": "3rd",
+    "publicationYear": "2009",
+    "totalPages": "1312",
+    "totalCopies": 6,
+    "issued": 4,
+    "available": 2,
+    "price": "1200",
+    "shelfLocation": "H-04",
+    "status": "Low Stock",
+    "description": "The definitive textbook on algorithms, covering sorting, graph algorithms, and computational theory with rigorous mathematical analysis.",
+    "coverImage": "https://images.unsplash.com/photo-1550399105-c4db5fb85c18?w=100&auto=format&fit=crop&q=80",
+    "borrowers": [
+      {
+        "memberId": "LIB-2025-0060",
+        "memberName": "Akash Kapoor",
+        "issueDate": "2026-05-20",
+        "dueDate": "2026-06-04",
+        "loanStatus": "Overdue",
+        "daysOverdue": 2
+      },
+      {
+        "memberId": "LIB-2025-0061",
+        "memberName": "Kriti Malhotra",
+        "issueDate": "2026-06-02",
+        "dueDate": "2026-06-17",
+        "loanStatus": "Active",
+        "daysOverdue": 0
+      }
+    ]
+  },
+  {
+    "id": "book-11",
+    "title": "Clean Code",
+    "author": "Robert C. Martin",
+    "isbn": "978-0-13-235088-4",
+    "category": "Technology",
+    "publisher": "Prentice Hall",
+    "language": "English",
+    "edition": "1st",
+    "publicationYear": "2008",
+    "totalPages": "464",
+    "totalCopies": 8,
+    "issued": 6,
+    "available": 2,
+    "price": "850",
+    "shelfLocation": "H-02",
+    "status": "Available",
+    "description": "A handbook of agile software craftsmanship, filled with structural principles and clean architectural patterns for writing readable code.",
+    "coverImage": "https://images.unsplash.com/photo-1607799279861-4dd421887fb3?w=100&auto=format&fit=crop&q=80",
+    "borrowers": [
+      {
+        "memberId": "LIB-2025-0062",
+        "memberName": "Siddharth Mehta",
+        "issueDate": "2026-05-12",
+        "dueDate": "2026-05-27",
+        "loanStatus": "Overdue",
+        "daysOverdue": 10
+      },
+      {
+        "memberId": "LIB-2025-0063",
+        "memberName": "Pooja Hegde",
+        "issueDate": "2026-06-03",
+        "dueDate": "2026-06-18",
+        "loanStatus": "Active",
+        "daysOverdue": 0
+      }
+    ]
+  },
+  {
+    "id": "book-12",
+    "title": "1984",
+    "author": "George Orwell",
+    "isbn": "978-0-451-52493-5",
+    "category": "Fiction",
+    "publisher": "Signet Classic",
+    "language": "English",
+    "edition": "Reprint",
+    "publicationYear": "1949",
+    "totalPages": "328",
+    "totalCopies": 15,
+    "issued": 14,
+    "available": 1,
+    "price": "299",
+    "shelfLocation": "A-02",
+    "status": "Low Stock",
+    "description": "A dystopian masterpiece details the terrifying surveillance landscape governed by Big Brother and the total control of thought.",
+    "coverImage": "https://images.unsplash.com/photo-1541963463532-d68292c34b19?w=100&auto=format&fit=crop&q=80",
+    "borrowers": [
+      {
+        "memberId": "LIB-2025-0064",
+        "memberName": "Gaurav Singh",
+        "issueDate": "2026-05-10",
+        "dueDate": "2026-05-25",
+        "loanStatus": "Overdue",
+        "daysOverdue": 12
+      },
+      {
+        "memberId": "LIB-2025-0065",
+        "memberName": "Neha Pandey",
+        "issueDate": "2026-05-24",
+        "dueDate": "2026-06-08",
+        "loanStatus": "Active",
+        "daysOverdue": 0
+      }
+    ]
+  },
+  {
+    "id": "book-13",
+    "title": "The Lean Startup",
+    "author": "Eric Ries",
+    "isbn": "978-0-307-88789-4",
+    "category": "Non-Fiction",
+    "publisher": "Crown Business",
+    "language": "English",
+    "edition": "1st",
+    "publicationYear": "2011",
+    "totalPages": "336",
+    "totalCopies": 5,
+    "issued": 4,
+    "available": 1,
+    "price": "550",
+    "shelfLocation": "G-04",
+    "status": "Low Stock",
+    "description": "How today's entrepreneurs use continuous innovation to create radically successful businesses over traditional operational frameworks.",
+    "coverImage": "https://images.unsplash.com/photo-1515847049296-a281d6401047?w=100&auto=format&fit=crop&q=80",
+    "borrowers": [
+      {
+        "memberId": "LIB-2025-0066",
+        "memberName": "Karan Johar",
+        "issueDate": "2026-05-16",
+        "dueDate": "2026-05-31",
+        "loanStatus": "Overdue",
+        "daysOverdue": 6
+      },
+      {
+        "memberId": "LIB-2025-0067",
+        "memberName": "Rhea Kapoor",
+        "issueDate": "2026-05-29",
+        "dueDate": "2026-06-13",
+        "loanStatus": "Active",
+        "daysOverdue": 0
+      }
+    ]
+  },
+  {
+    "id": "book-14",
+    "title": "Atomic Habits",
+    "author": "James Clear",
+    "isbn": "978-0-7352-1129-2",
+    "category": "Non-Fiction",
+    "publisher": "Avery",
+    "language": "English",
+    "edition": "1st",
+    "publicationYear": "2018",
+    "totalPages": "320",
+    "totalCopies": 20,
+    "issued": 12,
+    "available": 8,
+    "price": "499",
+    "shelfLocation": "G-01",
+    "status": "Available",
+    "description": "An easy and proven way to build good habits and break bad ones via compounding structural shifts in behavioral psychology.",
+    "coverImage": "https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?w=100&auto=format&fit=crop&q=80",
+    "borrowers": [
+      {
+        "memberId": "LIB-2025-0068",
+        "memberName": "Varun Dhawan",
+        "issueDate": "2026-05-18",
+        "dueDate": "2026-06-02",
+        "loanStatus": "Overdue",
+        "daysOverdue": 4
+      },
+      {
+        "memberId": "LIB-2025-0069",
+        "memberName": "Alia Bhatt",
+        "issueDate": "2026-06-01",
+        "dueDate": "2026-06-16",
+        "loanStatus": "Active",
+        "daysOverdue": 0
+      }
+    ]
+  },
+  {
+    "id": "book-15",
+    "title": "You Don't Know JS Yet",
+    "author": "Kyle Simpson",
+    "isbn": "978-1-660-32724-9",
+    "category": "Technology",
+    "publisher": "Independently Published",
+    "language": "English",
+    "edition": "2nd",
+    "publicationYear": "2020",
+    "totalPages": "170",
+    "totalCopies": 6,
+    "issued": 6,
+    "available": 0,
+    "price": "720",
+    "shelfLocation": "H-09",
+    "status": "Unavailable",
+    "description": "A deep structural dive into the core mechanisms of JavaScript closures, scopes, dynamic context, and compiler runtime mechanics.",
+    "coverImage": "https://images.unsplash.com/photo-1579468118864-1b9ea3c0db4a?w=100&auto=format&fit=crop&q=80",
+    "borrowers": [
+      {
+        "memberId": "LIB-2025-0070",
+        "memberName": "Pranav Shah",
+        "issueDate": "2026-05-15",
+        "dueDate": "2026-05-30",
+        "loanStatus": "Overdue",
+        "daysOverdue": 7
+      },
+      {
+        "memberId": "LIB-2025-0071",
+        "memberName": "Shreya Ghoshal",
+        "issueDate": "2026-05-20",
+        "dueDate": "2026-06-04",
+        "loanStatus": "Overdue",
+        "daysOverdue": 2
+      }
+    ]
+  },
+  {
+    "id": "book-16",
+    "title": "Concepts of Physics",
+    "author": "H.C. Verma",
+    "isbn": "978-81-7709-178-9",
+    "category": "Textbooks",
+    "publisher": "Bharati Bhawan",
+    "language": "English",
+    "edition": "2023",
+    "publicationYear": "2023",
+    "totalPages": "462",
+    "totalCopies": 18,
+    "issued": 10,
+    "available": 8,
+    "price": "460",
+    "shelfLocation": "F-05",
+    "status": "Available",
+    "description": "The foundation work for experimental and analytical mechanics, establishing key physical models for competitive engineering placement tracks.",
+    "coverImage": "https://images.unsplash.com/photo-1635070041078-e363dbe005cb?w=100&auto=format&fit=crop&q=80",
+    "borrowers": [
+      {
+        "memberId": "LIB-2025-0072",
+        "memberName": "Ishaan Khatter",
+        "issueDate": "2026-05-26",
+        "dueDate": "2026-06-10",
+        "loanStatus": "Active",
+        "daysOverdue": 0
+      },
+      {
+        "memberId": "LIB-2025-0073",
+        "memberName": "Janhavi Kapoor",
+        "issueDate": "2026-05-27",
+        "dueDate": "2026-06-11",
+        "loanStatus": "Active",
+        "daysOverdue": 0
+      }
+    ]
+  },
+  {
+    "id": "book-17",
+    "title": "The Alchemist",
+    "author": "Paulo Coelho",
+    "isbn": "978-0-06-231500-7",
+    "category": "Fiction",
+    "publisher": "HarperOne",
+    "language": "English",
+    "edition": "25th Anniversary",
+    "publicationYear": "1988",
+    "totalPages": "208",
+    "totalCopies": 11,
+    "issued": 4,
+    "available": 7,
+    "price": "320",
+    "shelfLocation": "A-15",
+    "status": "Available",
+    "description": "A pastoral tracking fable of an Andalusian shepherd boy traveling to Egypt to find worldly fortune and psychological destiny values.",
+    "coverImage": "https://images.unsplash.com/photo-1512820790803-83ca734da794?w=100&auto=format&fit=crop&q=80",
+    "borrowers": [
+      {
+        "memberId": "LIB-2025-0074",
+        "memberName": "Vijay Deverakonda",
+        "issueDate": "2026-05-29",
+        "dueDate": "2026-06-13",
+        "loanStatus": "Active",
+        "daysOverdue": 0
+      },
+      {
+        "memberId": "LIB-2025-0075",
+        "memberName": "Rashmika Mandanna",
+        "issueDate": "2026-05-30",
+        "dueDate": "2026-06-14",
+        "loanStatus": "Active",
+        "daysOverdue": 0
+      }
+    ]
+  },
+  {
+    "id": "book-18",
+    "title": "Design Patterns",
+    "author": "Erich Gamma",
+    "isbn": "978-0-201-63361-0",
+    "category": "Technology",
+    "publisher": "Addison-Wesley",
+    "language": "English",
+    "edition": "1st",
+    "publicationYear": "1994",
+    "totalPages": "395",
+    "totalCopies": 5,
+    "issued": 4,
+    "available": 1,
+    "price": "1100",
+    "shelfLocation": "H-01",
+    "status": "Low Stock",
+    "description": "The foundational blueprint cataloging classic object-oriented structures, defining reusable architectural models like singletons and strategies.",
+    "coverImage": "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?w=100&auto=format&fit=crop&q=80",
+    "borrowers": [
+      {
+        "memberId": "LIB-2025-0076",
+        "memberName": "Abhishek Bachan",
+        "issueDate": "2026-05-14",
+        "dueDate": "2026-05-29",
+        "loanStatus": "Overdue",
+        "daysOverdue": 8
+      },
+      {
+        "memberId": "LIB-2025-0077",
+        "memberName": "Aishwarya Rai",
+        "issueDate": "2026-05-28",
+        "dueDate": "2026-06-12",
+        "loanStatus": "Active",
+        "daysOverdue": 0
+      }
+    ]
+  },
+  {
+    "id": "book-19",
+    "title": "Steve Jobs",
+    "author": "Walter Isaacson",
+    "isbn": "978-1-4516-4853-9",
+    "category": "Biography",
+    "publisher": "Simon & Schuster",
+    "language": "English",
+    "edition": "1st",
+    "publicationYear": "2011",
+    "totalPages": "656",
+    "totalCopies": 7,
+    "issued": 5,
+    "available": 2,
+    "price": "699",
+    "shelfLocation": "E-05",
+    "status": "Available",
+    "description": "The chronicle of a design revolutionary tracking a chaotic life built around product obsessiveness, industrial perfection, and corporate warfare.",
+    "coverImage": "https://images.unsplash.com/photo-1531594652723-28ad67923727?w=100&auto=format&fit=crop&q=80",
+    "borrowers": [
+      {
+        "memberId": "LIB-2025-0078",
+        "memberName": "Ranbir Kapoor",
+        "issueDate": "2026-05-11",
+        "dueDate": "2026-05-26",
+        "loanStatus": "Overdue",
+        "daysOverdue": 11
+      },
+      {
+        "memberId": "LIB-2025-0079",
+        "memberName": "Katrina Kaif",
+        "issueDate": "2026-06-02",
+        "dueDate": "2026-06-17",
+        "loanStatus": "Active",
+        "daysOverdue": 0
+      }
+    ]
+  },
+  {
+    "id": "book-20",
+    "title": "Wings of Fire",
+    "author": "A.P.J. Abdul Kalam",
+    "isbn": "978-81-7371-146-6",
+    "category": "Biography",
+    "publisher": "Universities Press",
+    "language": "English",
+    "edition": "Special",
+    "publicationYear": "1999",
+    "totalPages": "180",
+    "totalCopies": 10,
+    "issued": 6,
+    "available": 4,
+    "price": "275",
+    "shelfLocation": "E-01",
+    "status": "Available",
+    "description": "The inspiring life trajectory of India's missile man detailing a personal flight trajectory out of absolute rural hardship into space programs.",
+    "coverImage": "https://images.unsplash.com/photo-1516979187457-637abb4f9353?w=100&auto=format&fit=crop&q=80",
+    "borrowers": [
+      {
+        "memberId": "LIB-2025-0080",
+        "memberName": "Kartik Aaryan",
+        "issueDate": "2026-05-13",
+        "dueDate": "2026-05-28",
+        "loanStatus": "Overdue",
+        "daysOverdue": 9
+      },
+      {
+        "memberId": "LIB-2025-0081",
+        "memberName": "Sara Ali Khan",
+        "issueDate": "2026-05-25",
+        "dueDate": "2026-06-09",
+        "loanStatus": "Active",
+        "daysOverdue": 0
+      }
+    ]
+  }
+]
