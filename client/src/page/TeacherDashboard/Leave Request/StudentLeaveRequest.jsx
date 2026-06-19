@@ -6,4 +6,4 @@ const StudentLeaveRequest = () => {
   )
 }
 
-export default StudentLeaveRequest
+export default StudentLeaveRequest;

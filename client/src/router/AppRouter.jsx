@@ -216,6 +216,7 @@ import TeacherOnlineDashboard from "../page/TeacherDashboard/Online Class/Teache
 import TeacherScheduleClass from "../page/TeacherDashboard/Online Class/TeacherScheduleClass.jsx";
 import TeacherPastClass from "../page/TeacherDashboard/Online Class/TeacherPastClass.jsx";
 import MyLeaveRequest from "../page/TeacherDashboard/Leave Request/MyLeaveRequest.jsx";
+import StudentLeaveRequest from "../page/TeacherDashboard/Leave Request/StudentLeaveRequest.jsx";
 
 function AppRouter() {
   const location = useLocation();
