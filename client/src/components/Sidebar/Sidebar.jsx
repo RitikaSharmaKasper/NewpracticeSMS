@@ -354,7 +354,7 @@ function Sidebar({ onLogoutClick }) {
               <SubMenuItem to="/students" label="All Students" />
             )}
             <SubMenuItem to="/attendance" label="Attendance" />
-            <SubMenuItem to="/teacher-myleave" label="Leave Request" />
+            <SubMenuItem to="/leave_request" label="Leave Request" />
             <SubMenuItem to="/perfromances" label="Performance" />
             <SubMenuItem to="/id-card" label="Id Card" />
             {canSubAction(user, "Students", "ManageLogin", "view") && (
@@ -1247,14 +1247,28 @@ function Sidebar({ onLogoutClick }) {
               </div>
               <div className="relative ml-7 mt-1 pl-4 text-base">
                 <div className="absolute -left-0.5 top-0 bottom-0 w-px bg-gray-300" />
-                <SubMenuItem to="/teacher-leave/request" label="Student Leave Request" />
+                <SubMenuItem to="/teacher-studentleave" label="Student Leave Request" />
                 <SubMenuItem
-                  to="/teacher-myleave"
+                  to="/teacher-myLeave-Request"
                   label="My Leave Request"
                 />
              
               </div>
             </div>
+
+
+  <div className="relative mt-1">
+              <Link
+                to="/teacher-myclass"
+                className="flex items-center py-2 text-[14px] cursor-pointer hover:opacity-70 transition-opacity"
+              >
+                <RiVideoOnLine className="mr-2 text-[16px] text-slate-800" />
+                <span className="font-medium text-slate-800">My Class</span>
+              </Link>
+            </div>
+
+
+
 
           </div>
         )}
