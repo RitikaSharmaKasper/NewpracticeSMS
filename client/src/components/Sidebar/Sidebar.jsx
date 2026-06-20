@@ -354,7 +354,7 @@ function Sidebar({ onLogoutClick }) {
               <SubMenuItem to="/students" label="All Students" />
             )}
             <SubMenuItem to="/attendance" label="Attendance" />
-            <SubMenuItem to="/leave-request" label="Leave Request" />
+            <SubMenuItem to="/teacher-myleave" label="Leave Request" />
             <SubMenuItem to="/perfromances" label="Performance" />
             <SubMenuItem to="/id-card" label="Id Card" />
             {canSubAction(user, "Students", "ManageLogin", "view") && (

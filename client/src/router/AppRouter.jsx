@@ -215,8 +215,8 @@ import EditMyStudent from "../page/TeacherDashboard/My Students/EditMyStudent.js
 import TeacherOnlineDashboard from "../page/TeacherDashboard/Online Class/TeacherOnlineDashboard.jsx";
 import TeacherScheduleClass from "../page/TeacherDashboard/Online Class/TeacherScheduleClass.jsx";
 import TeacherPastClass from "../page/TeacherDashboard/Online Class/TeacherPastClass.jsx";
-import MyLeaveRequest from "../page/TeacherDashboard/Leave Request/MyLeaveRequest.jsx";
 import StudentLeaveRequest from "../page/TeacherDashboard/Leave Request/StudentLeaveRequest.jsx";
+import MyLeaveRequest from "../page/TeacherDashboard/Leave Request/MyLeaveRequest.jsx";
 
 function AppRouter() {
   const location = useLocation();
@@ -701,7 +701,7 @@ function AppRouter() {
 
 {/* Leave Request */}
   <Route path="/teacher-leave/request" element={<StudentLeaveRequest/>} />
-    <Route path="/teacher-myleave" element={<MyLeaveRequest/>} />
+    <Route path="/teacher-myleave" element={<MyLeaveRequest />} />
 
 
 {/* events and calendar */}
