@@ -2,7 +2,8 @@ import React from "react";
 import Batman from "../../../assets/images/batman.jpg";
 import { IoMdSearch } from "react-icons/io";
 import { FaRegCircleCheck } from "react-icons/fa6";
-import { FcDisapprove } from "react-icons/fc";
+import { IoMdCloseCircleOutline } from "react-icons/io";
+import { IoIosArrowBack, IoIosArrowForward } from "react-icons/io";
 
 const MyLeaveRequest = () => {
   const leaveRequests = [
@@ -44,7 +45,7 @@ const MyLeaveRequest = () => {
       createdDate: "20 Jun 2026",
       createdTime: "10:30 AM",
       leaveType: "Personal",
-      reason: "Family Function",
+      reason: "Fever",
       status: "Approved",
       image: Batman,
     },
@@ -59,7 +60,7 @@ const MyLeaveRequest = () => {
       createdDate: "20 Jun 2026",
       createdTime: "10:30 AM",
       leaveType: "Personal",
-      reason: "Family Function",
+      reason: "pain",
       status: "Approved",
       image: Batman,
     },
@@ -154,8 +155,12 @@ const MyLeaveRequest = () => {
 
                 <td className="px-4 py-4">
                   <div className="flex gap-2">
-                    <span className="text-green-600 text-[10px] font-semibold">{student.startDate}</span>
-                    <span className="text-red-500 text-[10px] font-semibold">{student.endDate}</span>
+                    <span className="text-green-600  font-semibold">
+                      {student.startDate}
+                    </span>
+                    <span className="text-red-500  font-semibold border-l px-2">
+                      {student.endDate}
+                    </span>
                   </div>
                 </td>
 
@@ -166,7 +171,14 @@ const MyLeaveRequest = () => {
 
                 <td className="px-4 py-4">{student.leaveType}</td>
 
-                <td className="px-4 py-4">{student.reason}</td>
+                <td className="px-4 py-3 text-left text-[14px] font-normal">
+                  <textarea
+                    value={student.reason}
+                    readOnly
+                    rows={2}
+                    className="w-full min-w-[200px] p-2 border border-gray-300 rounded-lg resize-none focus:outline-none"
+                  />
+                </td>
 
                 <td className="px-4 py-4">
                   <span className="px-3 py-1 bg-yellow-100 text-yellow-700 rounded-full text-xs">
@@ -176,12 +188,15 @@ const MyLeaveRequest = () => {
 
                 <td className="px-4 py-4">
                   <div className="flex gap-2">
-                    <button className="p-2 rounded-lg bg-green-100">
+                    <button className="p-2 ">
                       <FaRegCircleCheck className="text-green-600" />
                     </button>
 
-                    <button className="p-2 rounded-lg bg-red-100">
-                      <FcDisapprove />
+                    <button className="p-2 ">
+                      <IoMdCloseCircleOutline
+                        size={20}
+                        className=" text-red-400"
+                      />
                     </button>
                   </div>
                 </td>
@@ -192,33 +207,56 @@ const MyLeaveRequest = () => {
 
         {/* { Pagenation } */}
 
-        <div className="flex items-center justify-between px-4 py-4 border-t bg-white">
-  <p className="text-sm text-gray-500">
-    Showing 1 to 10 of 50 entries
-  </p>
+        {/* <div className="flex gap-15">
+          <span className="px-3 py-1 border rounded">1</span>
+          <span className="px-3 py-1 border rounded">2</span>
+        </div> */}
+        <div className="w-full flex flex-col md:flex-row items-center justify-between gap-4 py-4 bg-white border-t">
+          {/* Left Side */}
+          <div className="flex items-center gap-3">
+            <select className="px-3 py-2 text-sm text-gray-600 bg-gray-50 rounded-md border border-gray-200 outline-none cursor-pointer">
+              <option>10</option>
+              <option>20</option>
+              <option>50</option>
+            </select>
 
-  <div className="flex items-center gap-2">
-    <button className="px-3 py-2 border rounded-lg text-gray-600 hover:bg-gray-100">
-      Previous
-    </button>
+            <p className="text-sm text-gray-500">
+              Showing <span className="font-medium text-gray-900">1-10</span> of
+              100 results
+            </p>
+          </div>
 
-    <button className="px-3 py-2 bg-indigo-600 text-white rounded-lg">
-      1
-    </button>
+          {/* Right Side */}
+          <div className="flex items-center gap-4">
+            <button className="flex items-center gap-1 text-sm text-gray-400">
+              <IoIosArrowBack />
+              Previous
+            </button>
 
-    <button className="px-3 py-2 border rounded-lg hover:bg-gray-100">
-      2
-    </button>
+            <div className="flex items-center gap-2">
+              <button className="w-8 h-8 rounded-md bg-[#12516E] text-white text-sm">
+                1
+              </button>
 
-    <button className="px-3 py-2 border rounded-lg hover:bg-gray-100">
-      3
-    </button>
+              <button className="w-8 h-8 rounded-md text-gray-700 hover:bg-gray-100 text-sm">
+                2
+              </button>
 
-    <button className="px-3 py-2 border rounded-lg text-gray-600 hover:bg-gray-100">
-      Next
-    </button>
-  </div>
-</div>
+              <button className="w-8 h-8 rounded-md text-gray-700 hover:bg-gray-100 text-sm">
+                3
+              </button>
+
+              <button className="w-8 h-8 rounded-md text-gray-700 hover:bg-gray-100 text-sm">
+                4
+              </button>
+            </div>
+
+            <button className="flex items-center gap-1 text-sm text-gray-700">
+              Next
+              <IoIosArrowForward />
+            </button>
+          </div>
+        </div>
       </div>
     </div>
   );
