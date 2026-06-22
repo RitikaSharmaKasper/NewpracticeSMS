@@ -1269,6 +1269,17 @@ function Sidebar({ onLogoutClick }) {
 
 
 
+  <div className="relative mt-1">
+              <Link
+                to="/teacher-salary"
+                className="flex items-center py-2 text-[14px] cursor-pointer hover:opacity-70 transition-opacity"
+              >
+                <RiVideoOnLine className="mr-2 text-[16px] text-slate-800" />
+                <span className="font-medium text-slate-800">Salary</span>
+              </Link>
+            </div>
+
+
 
           </div>
         )}
