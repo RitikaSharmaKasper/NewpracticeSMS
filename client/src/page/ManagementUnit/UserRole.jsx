@@ -345,7 +345,7 @@ const UserRole = () => {
                             {item.roleName}
                           </span>
                           {item.isSystemRole && (
-                            <span className="text-[11px] font-normal font-[400]  text-[#0043DB] bg-[#0043DB26] border border-[#0043DB40] px-2 py-0.25 rounded-[8px]">
+                            <span className="text-[11px] font-normal font-[400] text-[#0043DB] bg-[#0043DB26] border border-[#0043DB40] px-2 py-0.25 rounded-[8px]">
                               System Role
                             </span>
                           )}
