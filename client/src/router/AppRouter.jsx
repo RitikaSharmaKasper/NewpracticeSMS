@@ -219,6 +219,7 @@ import StudentLeaveRequest from "../page/TeacherDashboard/Leave Request/StudentL
 import MyLeaveRequest from "../page/TeacherDashboard/Leave Request/MyLeaveRequest.jsx";
 import Myclass from "../page/TeacherDashboard/Myclass/Myclass.jsx";
 import TeacherSalary from "../page/TeacherDashboard/Salary/TeacherSalary.jsx";
+import LoginSetting from "../page/TeacherDashboard/setting/LoginSetting.jsx";
 
 function AppRouter() {
   const location = useLocation();
@@ -681,6 +682,8 @@ function AppRouter() {
 <Route path="/teacher-attendance/student" element={<StudentAttendance/>}/>
 
 <Route path="/teacher-attendance/my" element={<MyAttendance/>}/> 
+
+<Route path="settings/user&role" element={<Settings />} />
      
      
      
@@ -709,6 +712,9 @@ function AppRouter() {
  
 
    <Route path="/teacher-salary" element={<TeacherSalary/>} />
+
+
+   <Route path="/loginsetting" element={<LoginSetting/>}/>
  
 
 
