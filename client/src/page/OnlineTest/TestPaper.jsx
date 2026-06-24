@@ -298,7 +298,9 @@ function TestPaper() {
               </div>
 
               <div className="flex gap-2">
+                <Link to={'/question-review'}>
                 <button className="border px-3 py-1 rounded">View</button>
+                </Link>
                 <Link to={`/create-test/${test._id}`}>
                   <button className="border px-3 py-1 rounded">Edit</button>
                 </Link>

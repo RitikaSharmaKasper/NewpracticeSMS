@@ -1280,6 +1280,17 @@ function Sidebar({ onLogoutClick }) {
             </div>
 
 
+            <div className="relative mt-1">
+              <Link
+                to="/loginsetting"
+                className="flex items-center py-2 text-[14px] cursor-pointer hover:opacity-70 transition-opacity"
+              >
+                <RiVideoOnLine className="mr-2 text-[16px] text-slate-800" />
+                <span className="font-medium text-slate-800">Setting</span>
+              </Link>
+            </div>
+
+
 
           </div>
         )}
